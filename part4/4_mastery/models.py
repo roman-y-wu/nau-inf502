@@ -267,3 +267,4 @@ class Repository:
             date_of_collection=row.get('date_of_collection', '')
         )
 
+

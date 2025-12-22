@@ -1,0 +1,53 @@
+test_to_csv_appends_data (tests.TestCSVOperations.test_to_csv_appends_data)
+Test that to_CSV appends to existing file. ... ok
+test_to_csv_creates_directory (tests.TestCSVOperations.test_to_csv_creates_directory)
+Test that to_CSV creates directory if needed. ... ok
+test_to_csv_creates_file (tests.TestCSVOperations.test_to_csv_creates_file)
+Test that to_CSV creates a new file with header. ... ok
+test_to_csv_no_duplicates (tests.TestCSVOperations.test_to_csv_no_duplicates)
+Test that to_CSV doesn't add duplicate entries. ... ok
+test_load_pull_requests_empty (tests.TestDataManagerLoading.test_load_pull_requests_empty)
+Test loading from non-existent repo returns empty list. ... ok
+test_load_repositories_empty (tests.TestDataManagerLoading.test_load_repositories_empty)
+Test loading from non-existent file returns empty list. ... ok
+test_load_users_empty (tests.TestDataManagerLoading.test_load_users_empty)
+Test loading from non-existent file returns empty list. ... ok
+test_license_csv_string (tests.TestLicenseModel.test_license_csv_string)
+Test License CSV string generation. ... ok
+test_license_from_json (tests.TestLicenseModel.test_license_from_json)
+Test creating License from JSON data. ... ok
+test_license_from_none (tests.TestLicenseModel.test_license_from_none)
+Test creating License from None returns empty license. ... ok
+test_pull_request_creation (tests.TestPullRequestModel.test_pull_request_creation)
+Test basic PullRequest creation. ... ok
+test_pull_request_csv_escaping (tests.TestPullRequestModel.test_pull_request_csv_escaping)
+Test that special characters are escaped in CSV. ... ok
+test_pull_request_str_representation (tests.TestPullRequestModel.test_pull_request_str_representation)
+Test PullRequest string representation. ... ok
+test_repository_creation (tests.TestRepositoryModel.test_repository_creation)
+Test basic Repository creation. ... ok
+test_repository_from_json (tests.TestRepositoryModel.test_repository_from_json)
+Test creating Repository from JSON data. ... ok
+test_repository_str_representation (tests.TestRepositoryModel.test_repository_str_representation)
+Test Repository string representation includes stars. ... ok
+test_parse_number_empty_or_invalid (tests.TestScraperUtilities.test_parse_number_empty_or_invalid)
+Test parsing empty or invalid input. ... ok
+test_parse_number_simple (tests.TestScraperUtilities.test_parse_number_simple)
+Test parsing simple numbers. ... ok
+test_parse_number_with_k (tests.TestScraperUtilities.test_parse_number_with_k)
+Test parsing numbers with 'k' suffix. ... ok
+test_parse_number_with_m (tests.TestScraperUtilities.test_parse_number_with_m)
+Test parsing numbers with 'm' suffix. ... ok
+test_user_creation (tests.TestUserModel.test_user_creation)
+Test basic user creation. ... ok
+test_user_csv_string (tests.TestUserModel.test_user_csv_string)
+Test User CSV string generation. ... ok
+test_user_from_json (tests.TestUserModel.test_user_from_json)
+Test creating User from JSON data. ... ok
+test_user_str_representation (tests.TestUserModel.test_user_str_representation)
+Test User string representation. ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.005s
+
+OK

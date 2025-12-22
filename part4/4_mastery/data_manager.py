@@ -325,3 +325,4 @@ def get_repository_summary(owner: str, repo_name: str) -> dict:
         'oldest_pr_date': oldest_date or 'N/A'
     }
 
+

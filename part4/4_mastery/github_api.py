@@ -196,3 +196,4 @@ def collect_repository_data(owner: str, repo_name: str,
     
     return repo, pull_requests, users
 
+
